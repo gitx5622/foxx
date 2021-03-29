@@ -3,7 +3,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import breakingbad from '../assets/breaking_bad.jpg';
-
+import got from '../assets/got.jpg';
+import badland from '../assets/badland.jpg';
+import blacklist from '../assets/blacklist.jpg';
+import poi from '../assets/poi.jpg';
 
 const TopratedSeries = () => {
     const settings = {
@@ -13,7 +16,7 @@ const TopratedSeries = () => {
         autoplaySpeed: 3000,
         speed: 500,
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
     };
     return (
         <div>
@@ -24,16 +27,19 @@ const TopratedSeries = () => {
                             <img src={breakingbad} width="250px" height="350px" alt="breaking_bad"/>
                         </div>
                         <div>
-                            <h3>2</h3>
+                            <img src={got} width="250px" height="350px" alt="got"/>
                         </div>
                         <div>
-                            <h3>3</h3>
+                            <img src={badland} width="250px" height="350px" alt="badlands"/>
                         </div>
                         <div>
-                            <h3>4</h3>
+                            <img src={blacklist} width="250px" height="350px" alt="blacklist"/>
                         </div>
                         <div>
-                            <h3>5</h3>
+                            <img src={poi} width="250px" height="350px" alt="poi"/>
+                        </div>
+                        <div>
+                            <img src={blacklist} width="250px" height="350px" alt="blacklist"/>
                         </div>
                     </Slider><br/><br/>
                 </div>
