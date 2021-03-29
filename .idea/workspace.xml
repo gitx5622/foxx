@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c560bc6-7c15-4326-846b-af1cd3604b95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/topratedseries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topratedseries.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/animationMovies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animationMovies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/comedySeries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comedySeries.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616154407005</updated>
       <workItem from="1616154413630" duration="14565000" />
-      <workItem from="1617008924276" duration="2603000" />
+      <workItem from="1617008924276" duration="5008000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,11 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import breakingbad from '../assets/breaking_bad.jpg';
+import outpost from '../assets/outpost.jpg';
+import witcher from '../assets/witcher.jpeg';
+import see from '../assets/see.jpg';
+import legendsofmonkey from '../assets/legenndsofmonkey.jpg';
+import grisse from '../assets/grisse.jpg';
 
 
 const EpicSeries = () => {
@@ -21,19 +25,19 @@ const EpicSeries = () => {
                 <a href="/"><h3>Epic Series</h3></a>
                 <Slider {...settings}>
                     <div>
-                        <img src={breakingbad} width="250px" height="350px" alt="breaking_bad"/>
+                        <img src={outpost} width="250px" height="350px" alt="outpost"/>
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <img src={witcher} width="250px" height="350px" alt="witcher"/>
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <img src={see} width="250px" height="350px" alt="see"/>
                     </div>
                     <div>
-                        <h3>4</h3>
+                        <img src={legendsofmonkey} width="250px" height="350px" alt="legendsofmonkey"/>
                     </div>
                     <div>
-                        <h3>5</h3>
+                        <img src={grisse} width="250px" height="350px" alt="grisse"/>
                     </div>
                 </Slider><br/><br/>
             </div>

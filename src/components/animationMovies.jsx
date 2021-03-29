@@ -2,8 +2,12 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import breakingbad from '../assets/breaking_bad.jpg';
-
+import abominable from '../assets/abominable.jpeg';
+import raya from '../assets/raya.jpg';
+import tom from '../assets/tom.jpg';
+import capturetheflag from '../assets/captureflag.jpg';
+import peter from '../assets/peterrabbit.jpg';
+import frozen from '../assets/frozen.jpg';
 
 const AnimationMovies = () => {
     const settings = {
@@ -21,19 +25,22 @@ const AnimationMovies = () => {
                 <a href="/"><h3>Animation Movies</h3></a>
                 <Slider {...settings}>
                     <div>
-                        <img src={breakingbad} width="250px" height="350px" alt="breaking_bad"/>
+                        <img src={abominable} width="250px" height="350px" alt="abominable"/>
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <img src={raya} width="250px" height="350px" alt="raya"/>
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <img src={tom} width="250px" height="350px" alt="tom"/>
                     </div>
                     <div>
-                        <h3>4</h3>
+                        <img src={capturetheflag} width="250px" height="350px" alt="capturetheflag"/>
                     </div>
                     <div>
-                        <h3>5</h3>
+                        <img src={peter} width="250px" height="350px" alt="peter"/>
+                    </div>
+                    <div>
+                        <img src={frozen} width="250px" height="350px" alt="frozen"/>
                     </div>
                 </Slider><br/><br/>
             </div>
