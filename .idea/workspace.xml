@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3c560bc6-7c15-4326-846b-af1cd3604b95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/actionSeries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actionSeries.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/animationMovies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animationMovies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/horrorMovies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/horrorMovies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/topratedseries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topratedseries.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +28,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../topratedprofessors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616154407005</updated>
       <workItem from="1616154413630" duration="14565000" />
-      <workItem from="1617008924276" duration="9580000" />
+      <workItem from="1617008924276" duration="15401000" />
     </task>
     <servers />
   </component>

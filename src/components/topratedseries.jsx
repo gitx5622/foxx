@@ -27,20 +27,37 @@ const TopratedSeries = () => {
                 <div className="container-fluid">
                     <a href="/"><h3>Top Rated Series</h3></a>
                     <Slider {...settings}>
-                        <div>
-                            <img src={breakingbad} width="250px" height="350px" alt="breaking_bad"/>
+                        <div className="containerx">
+                            <a href="/detailview">
+                            <img src={breakingbad} width="250px" className="image" height="350px" alt="breaking_bad"/>
+                                <div className="middle">
+                                    <div className="text">John Doe</div>
+                                </div>
+                            </a>
                         </div>
-                        <div>
-                            <img src={got} width="250px" height="350px" alt="got"/>
+                        <div className="containerx">
+                            <img src={got} className="image" width="250px" height="350px" alt="got"/>
+                            <div className="middle">
+                                <div className="text">John Doe</div>
+                            </div>
                         </div>
-                        <div>
-                            <img src={badland} width="250px" height="350px" alt="badlands"/>
+                        <div className="containerx">
+                            <img src={badland} className="image" width="250px" height="350px" alt="badlands"/>
+                            <div className="middle">
+                                <div className="text">John Doe</div>
+                            </div>
                         </div>
-                        <div>
-                            <img src={blacklist} width="250px" height="350px" alt="blacklist"/>
+                        <div className="containerx">
+                            <img src={blacklist} className="image" width="250px" height="350px" alt="blacklist"/>
+                            <div className="middle">
+                                <div className="text">John Doe</div>
+                            </div>
                         </div>
-                        <div>
-                            <img src={poi} width="250px" height="350px" alt="poi"/>
+                        <div className="containerx">
+                            <img src={poi} className="image" width="250px" height="350px" alt="poi"/>
+                            <div className="middle">
+                                <div className="text">John Doe</div>
+                            </div>
                         </div>
                         {/*<div>*/}
                         {/*    <img src={vikings} width="250px" height="350px" alt="vikings"/>*/}
