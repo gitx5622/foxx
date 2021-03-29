@@ -1,16 +1,11 @@
 import React from 'react';
-import NavBar from "./components/navbar";
-import Carousel from "./components/carousel";
-import TopratedSeries from "./components/topratedseries";
-import ComedySeries from "./components/comedySeries";
+import Skeleton from "react-loading-skeleton";
+import Home from "./components/home";
 
 function App() {
   return (
     <div className="App">
-        <NavBar/>
-        <Carousel/>
-        <TopratedSeries/>
-        <ComedySeries/>
+        {<Home/> || <Skeleton delay={3}/>}
     </div>
   );
 }
