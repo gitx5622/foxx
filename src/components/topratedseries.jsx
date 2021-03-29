@@ -7,6 +7,10 @@ import got from '../assets/got.jpg';
 import badland from '../assets/badland.jpg';
 import blacklist from '../assets/blacklist.jpg';
 import poi from '../assets/poi.jpg';
+import vikings from '../assets/vikings.jpg';
+import los from '../assets/los.jpg';
+import merlin from '../assets/merlin.jpeg';
+import dexter from '../assets/dexter.jpg';
 
 const TopratedSeries = () => {
     const settings = {
@@ -39,7 +43,16 @@ const TopratedSeries = () => {
                             <img src={poi} width="250px" height="350px" alt="poi"/>
                         </div>
                         <div>
-                            <img src={blacklist} width="250px" height="350px" alt="blacklist"/>
+                            <img src={vikings} width="250px" height="350px" alt="vikings"/>
+                        </div>
+                        <div>
+                            <img src={los} width="250px" height="350px" alt="los"/>
+                        </div>
+                        <div>
+                            <img src={merlin} width="250px" height="350px" alt="merlin"/>
+                        </div>
+                        <div>
+                            <img src={dexter} width="250px" height="350px" alt="dexter"/>
                         </div>
                     </Slider><br/><br/>
                 </div>
