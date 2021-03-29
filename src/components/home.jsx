@@ -7,12 +7,6 @@ import AnimationMovies from "./animationMovies";
 import EpicSeries from "./epicSeries";
 import HorrorMovies from "./horrorMovies";
 import ActionSeries from "./actionSeries";
-import ComedyMovies from "./comedyMovies";
-import EpicMovies from "./epicMovies";
-import DramaMovies from "./dramaMovies";
-import HorrorSeries from "./horrorSeries";
-import ActionMovies from "./actionMovies";
-import DramaSeries from "./dramaSeries";
 
 const Home = () => {
     return (
@@ -25,12 +19,6 @@ const Home = () => {
             <EpicSeries/>
             <HorrorMovies/>
             <ActionSeries/>
-            <ComedyMovies/>
-            <EpicMovies/>
-            <DramaMovies/>
-            <HorrorSeries/>
-            <ActionMovies/>
-            <DramaSeries/>
         </div>
     )
 };

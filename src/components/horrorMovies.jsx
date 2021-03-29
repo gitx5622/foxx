@@ -2,8 +2,11 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import breakingbad from '../assets/breaking_bad.jpg';
-
+import wrongturn from '../assets/wrongturn.jpg';
+import predator from '../assets/predator.jpeg';
+import reckoning from '../assets/reckoning.jpg';
+import annabelle from '../assets/annabelle.jpg';
+import saw from '../assets/saw.jpg';
 
 const HorrorMovies = () => {
     const settings = {
@@ -21,19 +24,19 @@ const HorrorMovies = () => {
                 <a href="/"><h3>Horror Movies</h3></a>
                 <Slider {...settings}>
                     <div>
-                        <img src={breakingbad} width="250px" height="350px" alt="breaking_bad"/>
+                        <img src={wrongturn} width="250px" height="350px" alt="breaking_bad"/>
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <img src={saw} width="250px" height="350px" alt="saw"/>
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <img src={predator} width="250px" height="350px" alt="predator"/>
                     </div>
                     <div>
-                        <h3>4</h3>
+                        <img src={reckoning} width="250px" height="350px" alt="reckoning"/>
                     </div>
                     <div>
-                        <h3>5</h3>
+                        <img src={annabelle} width="250px" height="350px" alt="annabelle"/>
                     </div>
                 </Slider><br/><br/>
             </div>

@@ -5,7 +5,6 @@ import Slider from "react-slick";
 import abominable from '../assets/abominable.jpeg';
 import raya from '../assets/raya.jpg';
 import tom from '../assets/tom.jpg';
-import capturetheflag from '../assets/captureflag.jpg';
 import peter from '../assets/peterrabbit.jpg';
 import frozen from '../assets/frozen.jpg';
 
@@ -32,9 +31,6 @@ const AnimationMovies = () => {
                     </div>
                     <div>
                         <img src={tom} width="250px" height="350px" alt="tom"/>
-                    </div>
-                    <div>
-                        <img src={capturetheflag} width="250px" height="350px" alt="capturetheflag"/>
                     </div>
                     <div>
                         <img src={peter} width="250px" height="350px" alt="peter"/>

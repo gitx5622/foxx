@@ -2,8 +2,11 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import breakingbad from '../assets/breaking_bad.jpg';
-
+import jackryan from '../assets/jackryan.jpg';
+import lettertotheking from '../assets/lettertotheking.jpg';
+import wuassassins from '../assets/wuassasins.jpg';
+import taken from '../assets/taken.jpg';
+import defenders from '../assets/defenders.jpeg';
 
 const ActionSeries = () => {
     const settings = {
@@ -21,19 +24,19 @@ const ActionSeries = () => {
                 <a href="/"><h3>Action Series</h3></a>
                 <Slider {...settings}>
                     <div>
-                        <img src={breakingbad} width="250px" height="350px" alt="breaking_bad"/>
+                        <img src={wuassassins} width="250px" height="350px" alt="wuassasins"/>
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <img src={jackryan} width="250px" height="350px" alt="jackryan"/>
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <img src={taken} width="250px" height="350px" alt="taken"/>
                     </div>
                     <div>
-                        <h3>4</h3>
+                        <img src={lettertotheking} width="250px" height="350px" alt="lettertotheking"/>
                     </div>
                     <div>
-                        <h3>5</h3>
+                        <img src={defenders} width="250px" height="350px" alt="defenders"/>
                     </div>
                 </Slider><br/><br/>
             </div>
